@@ -32,11 +32,13 @@ function Projects() {
       },
     },
     {
-      name: "Tutti Frutti",
+      name: "Tooti Frooti",
       description:
-        "A fun classic game where users can join parties to play this game.",
+        "A room-based game where users players race to fill letter-based answers.",
       logo: tfLogo,
-      githubLinks: { pokedex: "https://github.com/michellebello/pokedex" },
+      githubLinks: {
+        "tooti frooti": "https://github.com/barahi/tootie-frootie",
+      },
     },
   ];
 

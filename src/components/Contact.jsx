@@ -22,14 +22,19 @@ function Contact() {
               target="_blank"
               className="contactButton"
             >
-              <img className="logo" alt="linkedin" src={linkedin}></img>
+              <div className="logo-wrapper">
+                <img className="logo" alt="linkedin" src={linkedin}></img>
+              </div>
             </a>
+
             <a
               href="https://github.com/michellebello"
               target="_blank"
               className="contactButton"
             >
-              <img className="logo" alt="github" src={github}></img>
+              <div className="logo-wrapper">
+                <img className="logo" alt="github" src={github}></img>
+              </div>
             </a>
           </div>
         </div>

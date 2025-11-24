@@ -27,6 +27,7 @@ function DesktopTopBar() {
         {" "}
         Michelle{" "}
       </NavLink>
+
       <li className="topBar-li" key="topBar-li">
         <ul className="topBar-ul">
           {LINK_INFO.map((link) => {

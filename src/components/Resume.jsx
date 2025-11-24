@@ -1,4 +1,3 @@
-import React from "react";
 import DesktopTopBar from "../components/reusable/topBars/desktop/DesktopTopBar.jsx";
 import MobileTopBar from "./reusable/topBars/mobile/MobileTopBar.jsx";
 import { useMediaQuery } from "react-responsive";
@@ -8,7 +7,7 @@ import "./styles/resume.css";
 
 function Resume() {
   const onClickResume = () => {
-    fetch("MichelleBV_Resume.pdf").then((res) => {
+    fetch("MichelleBelloV-Resume.pdf").then((res) => {
       res.blob().then((blob) => {
         const fileURL = window.URL.createObjectURL(blob);
         let alink = document.createElement("a");
