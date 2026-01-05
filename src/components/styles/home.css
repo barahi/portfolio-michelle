@@ -50,7 +50,7 @@
   list-style: none;
   margin: 0;
   padding: 0;
-  gap: 1rem;
+  gap: 1.5rem;
 }
 
 .topBar .topBar-right .desktop-nav li {
