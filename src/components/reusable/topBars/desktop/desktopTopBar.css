@@ -85,7 +85,7 @@ a:not(.active):not(.michelle):hover {
   list-style: none;
   background-color: #adb9bc;
   color: #1e1e1e;
-  padding: 0.4rem;
+  padding: 0.15rem 0.4rem;
   border-radius: 0.5rem;
 }
 

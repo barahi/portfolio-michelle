@@ -12,7 +12,7 @@ function Resume() {
         const fileURL = window.URL.createObjectURL(blob);
         let alink = document.createElement("a");
         alink.href = fileURL;
-        alink.download = "MichelleBV_Resume.pdf";
+        alink.download = "MichelleBelloV-Resume.pdf";
         alink.click();
       });
     });
