@@ -18,7 +18,7 @@ function Contact() {
           <img className="contact" alt="contact" src={contact}></img>
           <div className="logos">
             <a
-              href="https://www.linkedin.com/in/michellebellov/"
+              href="https://www.linkedin.com/in/michellebellov"
               target="_blank"
               className="contactButton"
             >
