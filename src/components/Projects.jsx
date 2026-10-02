@@ -38,6 +38,7 @@ function Projects() {
       logo: tfLogo,
       githubLinks: {
         "tooti frooti": "https://github.com/barahi/tootie-frootie",
+        "game-client": "https://github.com/barahi/game-client",
       },
     },
   ];
